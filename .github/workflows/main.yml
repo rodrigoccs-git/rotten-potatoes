@@ -33,7 +33,7 @@ jobs:
 
 # passo de deploy dessa imagem no kuberntes
   CD:
-    needs: {CI}
+    needs: [CI]
     runs-on: ubuntu-latest
     steps: 
       # baixar novamente o manifesto do repositório pq estamos em jobs diferentes 
