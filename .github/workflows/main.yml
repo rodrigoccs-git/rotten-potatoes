@@ -31,8 +31,12 @@ jobs:
             rodrigoccs/rotten-potatoes:latest
             rodrigoccs/rotten-potatoes:${{ github.run_number }}
 
-  CD:
 # passo de deploy dessa imagem no kuberntes
+  CD:
+# com o needs informamos que o CD deve ser executado somente após o término do CI, sem essa informação
+# os dois serão executados paralelamente
+    needs: {CI}
+
 
     runs-on: ubuntu-latest
     steps: 
