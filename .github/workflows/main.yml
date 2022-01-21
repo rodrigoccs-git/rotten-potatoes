@@ -50,7 +50,7 @@ jobs:
 
 # incluir a actiom de execução
       - name: Deploy to Kubernetes cluster
-        uses: Azure/k8s-deploy@v1.5
+        uses: Azure/k8s-deploy@v1.3
         with:
           imagem: rodrigoccs/rotten-potatoes:${{ github.run_number }}
 # arquivo de manifesto
