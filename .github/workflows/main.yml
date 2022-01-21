@@ -55,6 +55,6 @@ jobs:
           imagem: rodrigoccs/rotten-potatoes:${{ github.run_number }}
 # arquivo de manifesto
           manifests: |
-            k8s/deployment.yam
+            k8s/deployment.yaml
         
     
