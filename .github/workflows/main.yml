@@ -36,8 +36,6 @@ jobs:
 # com o needs informamos que o CD deve ser executado somente após o término do CI, sem essa informação
 # os dois serão executados paralelamente
     needs: {CI}
-
-
     runs-on: ubuntu-latest
     steps: 
       # baixar novamente o manifesto do repositório pq estamos em jobs diferentes 
