@@ -28,6 +28,6 @@ jobs:
           file: ./src/Dockerfle
           push: true
           tags: 
-            rodrigoccs/rottenpotatoes:latest
-            rodrigoccs/rottenpotatoes:$(( github.run_number))
+            rodrigoccs/rotten-potatoes:latest
+            rodrigoccs/rotten-potatoes:$(( github.run_number))
             
