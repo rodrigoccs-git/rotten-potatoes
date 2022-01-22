@@ -40,7 +40,7 @@ spec:
 
 ---
 
-# Deployment da aplicação web Rotten Potatoes
+# Deployment da aplicação Web Rotten Potatoes
 
 apiVersion: apps/v1
 kind: Deployment
