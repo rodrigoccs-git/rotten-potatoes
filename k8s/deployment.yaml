@@ -70,7 +70,7 @@ spec:
         - name: MONGODB_USERNAME
           value: mongouser
         - name: MONGODB_PASSWORD
-          name: mongopwd
+          value: mongopwd
 
 ---
 
